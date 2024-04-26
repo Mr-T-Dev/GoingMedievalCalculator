@@ -1,0 +1,130 @@
+{
+    "spaciousness": [
+        {
+            "value": 0.00,
+            "multiplier": 0.00
+        },
+        {
+            "value": 16.00,
+            "multiplier": 3.00
+        },
+        {
+            "value": 30.00,
+            "multiplier": 3.5
+        },
+        {
+            "value": 60.00,
+            "multiplier": 4.00
+        },
+        {
+            "value": 120.00,
+            "multiplier": 7.00
+        },
+        {
+            "value": 200.00,
+            "multiplier": 12.00
+        }
+    ],
+    "wealth": [
+        {
+            "value": 0.00,
+            "multiplier": 0.00
+        },
+        {
+            "value": 90.00,
+            "multiplier": 2.50
+        },
+        {
+            "value": 230.00,
+            "multiplier": 3.00
+        },
+        {
+            "value": 500.00,
+            "multiplier": 4.00
+        },
+        {
+            "value": 2000.00,
+            "multiplier": 8.00
+        },
+        {
+            "value": 4000.00,
+            "multiplier": 16.00
+        },
+        {
+            "value": 10000.00,
+            "multiplier": 32.00
+        }
+    ],
+    "aesthetic": [
+        {
+            "value": -50.00,
+            "multiplier": 0.00
+        },
+        {
+            "value": -30.00,
+            "multiplier": 0.50
+        },
+        {
+            "value": -20.00,
+            "multiplier": 1.00
+        },
+        {
+            "value": -5.00,
+            "multiplier": 3.00
+        },
+        {
+            "value": 0.00,
+            "multiplier": 3.50
+        },
+        {
+            "value": 20.00,
+            "multiplier": 8.00
+        },
+        {
+            "value": 30.00,
+            "multiplier": 16.00
+        },
+        {
+            "value": 40.00,
+            "multiplier": 32.00
+        },
+        {
+            "value": 50.00,
+            "multiplier": 64.00
+        }
+    ],
+    "tierScore": [
+        {
+            "tier": "Awful",
+            "score": 0
+        },
+        {
+            "tier": "Uninspiring",
+            "score": 10
+        },
+        {
+            "tier": "Modest",
+            "score": 15
+        },
+        {
+            "tier": "Good",
+            "score": 65
+        },
+        {
+            "tier": "Superior",
+            "score": 300
+        },
+        {
+            "tier": "Luxurious",
+            "score": 750
+        },
+        {
+            "tier": "Opulent",
+            "score": 2500
+        },
+        {
+            "tier": "Palatial",
+            "score": 6000
+        }
+    ]
+}

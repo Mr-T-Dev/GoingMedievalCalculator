@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		154BCAE32BDB942D00CC2F14 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154BCAE22BDB942D00CC2F14 /* ResultsView.swift */; };
+		154BCAE62BDB95FC00CC2F14 /* ThresholdResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154BCAE52BDB95FC00CC2F14 /* ThresholdResult.swift */; };
+		154BCAE92BDB9C6200CC2F14 /* ResultsViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154BCAE82BDB9C6200CC2F14 /* ResultsViewAdapter.swift */; };
+		15E383712BDB796C009445FE /* GoingMedievalCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E383702BDB796C009445FE /* GoingMedievalCalculatorApp.swift */; };
+		15E383732BDB796C009445FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E383722BDB796C009445FE /* ContentView.swift */; };
+		15E383752BDB796E009445FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15E383742BDB796E009445FE /* Assets.xcassets */; };
+		15E383782BDB796E009445FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15E383772BDB796E009445FE /* Preview Assets.xcassets */; };
+		15E383812BDB7F6E009445FE /* Scores.json in Resources */ = {isa = PBXBuildFile; fileRef = 15E383802BDB7F6E009445FE /* Scores.json */; };
+		15E383832BDB80BD009445FE /* GoingMedievalScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E383822BDB80BD009445FE /* GoingMedievalScores.swift */; };
+		15E383852BDB845E009445FE /* TiersAndScoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E383842BDB845E009445FE /* TiersAndScoresView.swift */; };
+		15E383882BDB84CD009445FE /* TiersAndScoresAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E383872BDB84CD009445FE /* TiersAndScoresAdapter.swift */; };
+		15E3838D2BDB8AEC009445FE /* ThresholdsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E3838C2BDB8AEC009445FE /* ThresholdsView.swift */; };
+		15E3838F2BDB8B58009445FE /* ScoresCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E3838E2BDB8B58009445FE /* ScoresCalculator.swift */; };
+		15E383912BDB8B67009445FE /* ThresholderAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E383902BDB8B67009445FE /* ThresholderAdapter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		154BCAE22BDB942D00CC2F14 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		154BCAE52BDB95FC00CC2F14 /* ThresholdResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThresholdResult.swift; sourceTree = "<group>"; };
+		154BCAE82BDB9C6200CC2F14 /* ResultsViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewAdapter.swift; sourceTree = "<group>"; };
+		15E3836D2BDB796C009445FE /* GoingMedievalCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoingMedievalCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15E383702BDB796C009445FE /* GoingMedievalCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoingMedievalCalculatorApp.swift; sourceTree = "<group>"; };
+		15E383722BDB796C009445FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		15E383742BDB796E009445FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15E383772BDB796E009445FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		15E383792BDB796E009445FE /* GoingMedievalCalculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GoingMedievalCalculator.entitlements; sourceTree = "<group>"; };
+		15E383802BDB7F6E009445FE /* Scores.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Scores.json; sourceTree = "<group>"; };
+		15E383822BDB80BD009445FE /* GoingMedievalScores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoingMedievalScores.swift; sourceTree = "<group>"; };
+		15E383842BDB845E009445FE /* TiersAndScoresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiersAndScoresView.swift; sourceTree = "<group>"; };
+		15E383872BDB84CD009445FE /* TiersAndScoresAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiersAndScoresAdapter.swift; sourceTree = "<group>"; };
+		15E3838C2BDB8AEC009445FE /* ThresholdsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThresholdsView.swift; sourceTree = "<group>"; };
+		15E3838E2BDB8B58009445FE /* ScoresCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresCalculator.swift; sourceTree = "<group>"; };
+		15E383902BDB8B67009445FE /* ThresholderAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThresholderAdapter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15E3836A2BDB796C009445FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		154BCAE12BDB93F700CC2F14 /* Results */ = {
+			isa = PBXGroup;
+			children = (
+				154BCAE72BDB9C5300CC2F14 /* Models */,
+				154BCAE22BDB942D00CC2F14 /* ResultsView.swift */,
+			);
+			path = Results;
+			sourceTree = "<group>";
+		};
+		154BCAE42BDB957600CC2F14 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				15E3838E2BDB8B58009445FE /* ScoresCalculator.swift */,
+				154BCAE52BDB95FC00CC2F14 /* ThresholdResult.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		154BCAE72BDB9C5300CC2F14 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				154BCAE82BDB9C6200CC2F14 /* ResultsViewAdapter.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		15E383642BDB796C009445FE = {
+			isa = PBXGroup;
+			children = (
+				15E3836F2BDB796C009445FE /* GoingMedievalCalculator */,
+				15E3836E2BDB796C009445FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15E3836E2BDB796C009445FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15E3836D2BDB796C009445FE /* GoingMedievalCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15E3836F2BDB796C009445FE /* GoingMedievalCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				154BCAE42BDB957600CC2F14 /* Models */,
+				154BCAE12BDB93F700CC2F14 /* Results */,
+				15E3838A2BDB8A4A009445FE /* Thresholds */,
+				15E383862BDB849D009445FE /* TiersAndScores */,
+				15E3837F2BDB7ED5009445FE /* Data */,
+				15E383702BDB796C009445FE /* GoingMedievalCalculatorApp.swift */,
+				15E383722BDB796C009445FE /* ContentView.swift */,
+				15E383742BDB796E009445FE /* Assets.xcassets */,
+				15E383792BDB796E009445FE /* GoingMedievalCalculator.entitlements */,
+				15E383762BDB796E009445FE /* Preview Content */,
+			);
+			path = GoingMedievalCalculator;
+			sourceTree = "<group>";
+		};
+		15E383762BDB796E009445FE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				15E383772BDB796E009445FE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		15E3837F2BDB7ED5009445FE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				15E383802BDB7F6E009445FE /* Scores.json */,
+				15E383822BDB80BD009445FE /* GoingMedievalScores.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		15E383862BDB849D009445FE /* TiersAndScores */ = {
+			isa = PBXGroup;
+			children = (
+				15E383892BDB84EA009445FE /* Models */,
+				15E383842BDB845E009445FE /* TiersAndScoresView.swift */,
+			);
+			path = TiersAndScores;
+			sourceTree = "<group>";
+		};
+		15E383892BDB84EA009445FE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				15E383872BDB84CD009445FE /* TiersAndScoresAdapter.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		15E3838A2BDB8A4A009445FE /* Thresholds */ = {
+			isa = PBXGroup;
+			children = (
+				15E383922BDB8D01009445FE /* Models */,
+				15E3838C2BDB8AEC009445FE /* ThresholdsView.swift */,
+			);
+			path = Thresholds;
+			sourceTree = "<group>";
+		};
+		15E383922BDB8D01009445FE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				15E383902BDB8B67009445FE /* ThresholderAdapter.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15E3836C2BDB796C009445FE /* GoingMedievalCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15E3837C2BDB796E009445FE /* Build configuration list for PBXNativeTarget "GoingMedievalCalculator" */;
+			buildPhases = (
+				15E383692BDB796C009445FE /* Sources */,
+				15E3836A2BDB796C009445FE /* Frameworks */,
+				15E3836B2BDB796C009445FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoingMedievalCalculator;
+			productName = GoingMedievalCalculator;
+			productReference = 15E3836D2BDB796C009445FE /* GoingMedievalCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15E383652BDB796C009445FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					15E3836C2BDB796C009445FE = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 15E383682BDB796C009445FE /* Build configuration list for PBXProject "GoingMedievalCalculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15E383642BDB796C009445FE;
+			productRefGroup = 15E3836E2BDB796C009445FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15E3836C2BDB796C009445FE /* GoingMedievalCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15E3836B2BDB796C009445FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E383782BDB796E009445FE /* Preview Assets.xcassets in Resources */,
+				15E383812BDB7F6E009445FE /* Scores.json in Resources */,
+				15E383752BDB796E009445FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15E383692BDB796C009445FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E383912BDB8B67009445FE /* ThresholderAdapter.swift in Sources */,
+				15E3838F2BDB8B58009445FE /* ScoresCalculator.swift in Sources */,
+				15E383832BDB80BD009445FE /* GoingMedievalScores.swift in Sources */,
+				154BCAE32BDB942D00CC2F14 /* ResultsView.swift in Sources */,
+				15E383732BDB796C009445FE /* ContentView.swift in Sources */,
+				154BCAE92BDB9C6200CC2F14 /* ResultsViewAdapter.swift in Sources */,
+				15E3838D2BDB8AEC009445FE /* ThresholdsView.swift in Sources */,
+				154BCAE62BDB95FC00CC2F14 /* ThresholdResult.swift in Sources */,
+				15E383712BDB796C009445FE /* GoingMedievalCalculatorApp.swift in Sources */,
+				15E383852BDB845E009445FE /* TiersAndScoresView.swift in Sources */,
+				15E383882BDB84CD009445FE /* TiersAndScoresAdapter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		15E3837A2BDB796E009445FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15E3837B2BDB796E009445FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		15E3837D2BDB796E009445FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GoingMedievalCalculator/GoingMedievalCalculator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GoingMedievalCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = AN8YKZK4DA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tiago.pereira.GoingMedievalCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		15E3837E2BDB796E009445FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GoingMedievalCalculator/GoingMedievalCalculator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GoingMedievalCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = AN8YKZK4DA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tiago.pereira.GoingMedievalCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15E383682BDB796C009445FE /* Build configuration list for PBXProject "GoingMedievalCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15E3837A2BDB796E009445FE /* Debug */,
+				15E3837B2BDB796E009445FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15E3837C2BDB796E009445FE /* Build configuration list for PBXNativeTarget "GoingMedievalCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15E3837D2BDB796E009445FE /* Debug */,
+				15E3837E2BDB796E009445FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15E383652BDB796C009445FE /* Project object */;
+}
