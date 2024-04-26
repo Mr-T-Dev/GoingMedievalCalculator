@@ -1,0 +1,2 @@
+# GoingMedievalCalculator
+Experimental mac application
